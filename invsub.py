@@ -8,10 +8,10 @@ import numpy as np
 
 
 
-path=r"C:\Users\jlaird\Documents\invsub\result.xlsx"
+path=r"C:\Users\jl\Documents\invsub\result.xlsx"
 excel_workbook= xw.Book(path).sheets['Sheet1']
 
-with open(r"C:\Users\jlaird\Documents\invsub\report.txt", "r") as f:
+with open(r"C:\Users\jl\Documents\invsub\report.txt", "r") as f:
     
         contents = f.readlines() #list containing all strings
 
